@@ -92,7 +92,7 @@ def sync_show_season(
         target_ep = target_episode_map.get(src_ep.guid, None)
         if not target_ep:
             logger.info(
-                f"Skpping {src_show.title} {src_ep.seasonEpisode}: not present on target"
+                f"Skipping {src_show.title} {src_ep.seasonEpisode}: not present on target"
             )
             continue
 
